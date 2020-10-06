@@ -2,8 +2,19 @@
 
 mainブランチにプルリクエストを出したときに自動的にpytestによるテストとflake8による静的コード解析が行われます。
 
-ローカルでのテスト実行
+## テスト
+
+テストコードは `src/test/` 以下に置き、 `test_` から始まるファイル名にします。  
+`test_` で始まる関数がテストの対象になります。
 
 ```bash
-sh test.sh
+python -m pytest
+```
+
+## 静的コード解析
+
+コーディング規約の設定は `.flake8` に記載します。
+
+```bash
+flake8 (--show-source --statistics)
 ```
