@@ -16,7 +16,7 @@ python -m pytest
 コーディング規約の設定は `.flake8` に記載します。  
 ここでは [Black](https://black.readthedocs.io/en/stable/the_black_code_style.html) の設定に準拠しました。  
 - 1行あたりの文字数は88字以内
-- E203(‘:’の前に空白を入れる)を無視
+- E203(‘:’の前の空白)を無視
 
 ```bash
 flake8 (--show-source --statistics)
