@@ -63,3 +63,5 @@ black .
 - [成功例](https://github.com/fujihiraryo/github-actions-python/pull/4)  
 - [失敗例(lint)](https://github.com/fujihiraryo/github-actions-python/pull/5)  
 - [失敗例(test)](https://github.com/fujihiraryo/github-actions-python/pull/6)  
+
+![ 2020-10-07 at 4 14 57](https://user-images.githubusercontent.com/49140016/95249511-c11ad100-0853-11eb-9f39-a4ece2fc8f31.png)
