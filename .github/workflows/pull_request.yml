@@ -1,9 +1,11 @@
+name: actions
+
 on:
   pull_request:
     branches: [main]
 
 jobs:
-  build:
+  test_and_lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
