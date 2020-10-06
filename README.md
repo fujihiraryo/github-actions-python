@@ -21,6 +21,6 @@ flake8 (--show-source --statistics)
 
 ## プルリクエストの例
 
-[成功例](https://github.com/fujihiraryo/github-actions-python/pull/4)
-[失敗例(lint)](https://github.com/fujihiraryo/github-actions-python/pull/5)
-[失敗例(test)](https://github.com/fujihiraryo/github-actions-python/pull/6)
+- [成功例](https://github.com/fujihiraryo/github-actions-python/pull/4)  
+- [失敗例(lint)](https://github.com/fujihiraryo/github-actions-python/pull/5)  
+- [失敗例(test)](https://github.com/fujihiraryo/github-actions-python/pull/6)  
