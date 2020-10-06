@@ -13,11 +13,21 @@ python -m pytest
 
 ## 静的コード解析
 
-コーディング規約の設定は `.flake8` に記載します。
+コーディング規約の設定は `.flake8` に記載します。  
+ここでは [Black](https://black.readthedocs.io/en/stable/the_black_code_style.html) の設定に準拠しました。
 
 ```bash
 flake8 (--show-source --statistics)
 ```
+
+blackをローカルにインストールしておけば、
+
+```bash
+black .
+```
+
+で自動的に整形することができます。
+
 
 ## プルリクエストの例
 
