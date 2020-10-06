@@ -33,6 +33,21 @@ black .
 で自動的に整形することができます。
 
 
+## Visual Studio Codeでの設定
+
+```json
+{
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": [
+    "--ignore=E203",
+    "--max-line-length=88"
+  ],
+  "python.formatting.provider": "black"
+}
+```
+
+
 ## プルリクエストの例
 
 - [成功例](https://github.com/fujihiraryo/github-actions-python/pull/4)  
