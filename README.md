@@ -45,6 +45,8 @@ black .
 
 ## Visual Studio Codeでの設定
 
+[Pythonプラグイン](https://marketplace.visualstudio.com/items?itemName=ms-python.python)を使います。
+
 ```json
 {
   "python.linting.pylintEnabled": false,
