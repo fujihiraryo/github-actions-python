@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 でインストールします。
 
-## テスト
+## 単体テスト
 
 テストコードは `src/test/` 以下に置き、 `test_` から始まるファイル名にします。  
 `test_` で始まる関数がテストの対象になります。
@@ -42,6 +42,13 @@ black .
 
 で自動的に整形することができます。
 
+また、[isort](https://github.com/PyCQA/isort) で importの順番も強制します。ローカルでは
+
+```bash
+isort .
+```
+
+で整形することができます。
 
 ## Visual Studio Codeでの設定
 
