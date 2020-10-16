@@ -25,4 +25,4 @@ jobs:
           python -m pytest
       - name: Import Check with isort
         run: |
-          isort . -c
+          isort . -c --diff
