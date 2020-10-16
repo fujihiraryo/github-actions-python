@@ -2,7 +2,7 @@ import os
 
 import numpy as np
 
-np.sum(1, 2)
+np.array([1, 2, 3])
 os.listdir()
 
 
