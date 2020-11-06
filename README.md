@@ -66,7 +66,3 @@ isort .
   "python.formatting.provider": "black"
 }
 ```
-
-## プルリクエストの例
-
-![ 2020-10-07 at 4 14 57](https://user-images.githubusercontent.com/49140016/95249511-c11ad100-0853-11eb-9f39-a4ece2fc8f31.png)
